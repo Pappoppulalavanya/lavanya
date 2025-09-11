@@ -150,7 +150,7 @@ os.environ["NGROK_AUTHTOKEN"] = "32StrEYB3oRMq3XqpNKwDWx9fEe_34Zn18gxeMyyTtkD8sS
 ngrok.set_auth_token(os.environ["NGROK_AUTHTOKEN"])
 
 # Step 5: Kill any existing Streamlit process
-!pkill streamlit
+#!pkill streamlit
 
 # Step 6: Define your Streamlit app code
 app_code = """
